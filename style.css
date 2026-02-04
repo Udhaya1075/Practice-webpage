@@ -1,0 +1,58 @@
+body{
+    margin: 15px 20px;
+    }
+
+*{
+    font-family: poppins, sans-serif;
+    }
+
+.h,h1,h2,h3,h4,h5,h6{
+    color: rgb(5, 87, 87);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    padding-right: 60px;
+    text-align: center;
+    background-color: white;
+    }
+
+form{
+            background-color: white ;
+            border: 1px rgb(5, 87, 87) solid;
+            padding: 10px;
+            width: 300px;
+        }
+
+ul{
+    list-style-type: square;
+    
+}
+
+.pos{
+    color: rgb(5, 87, 87);
+    font-style: italic;
+    position: sticky;
+    top: 2px;  
+    background-color: aliceblue ;
+    padding: 5px;
+    }
+
+
+
+.disp {
+    display: flex;
+}
+.disp p {
+    padding: 20px;
+    background-color: lightseagreen;
+}
+.disp span {
+    padding: 10px;
+    color: rgb(255, 255, 255); 
+    background-color: rgb(41, 109, 109);
+
+}
