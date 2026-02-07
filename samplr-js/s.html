@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="one">sample text</p>
+    <p class="one">sample text1</p>
+    <p class="one">sample text2</p>
+    <button onclick="greet()" >Click me</button>
+
+    <script>
+        const elements = document.getElementsByClassName('one');
+        elements[0].textContent = 'changed text';
+        elements[1].innerHTML = '<strong>innerhtml</strong>';
+        elements[0].style.backgroundColor = 'yellow';
+
+    </script>
+</body>
+</html>
